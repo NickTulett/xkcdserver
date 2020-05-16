@@ -1,0 +1,219 @@
+@font-face {
+  font-family: 'xkcd';
+  font-style: normal;
+  font-weight: normal;
+  src: local('xkcd'),url('/fonts/humor-sans.ttf');
+}
+
+body {
+  margin-top: 20px;
+}
+
+.force-vscrollbar {
+  height: 101%;
+}
+
+section {
+  padding-top: 40px;
+}
+
+.container {
+  width: 800px;
+  position: relative;
+}
+
+.chrome-experiment-badge {
+  zoom: 70%;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+#error {
+  padding: 20px;
+}
+
+#comix {
+  margin: auto;
+  min-width: 600px;
+}
+
+#comix-spinner {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#comix-placeholder {
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+#comix-banner {
+  font-weight: normal;
+  height: 26px;
+  white-space:nowrap;
+  position: relative;
+  font-family: "xkcd", sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  line-height: 26px;
+}
+
+.comix-title {
+  font-size: 24px;
+}
+
+.comix-author {
+  position: absolute;
+  top: -4px;
+  margin-left: 16px;
+  color: #999;
+  font-size: 10px;
+}
+
+.comix-date {
+  position: absolute;
+  top: 8px;
+  margin-left: 16px;
+  color: #999;
+  font-size: 10px;
+}
+
+.stage {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.icon-github {
+  position: relative;
+  top: -2px;
+  background: no-repeat url('../img/github-16px.png');
+  width: 16px;
+  height: 16px;
+}
+
+.hero-unit {
+  background: #fff;
+  position: relative;
+  padding: 0px 0;
+  text-align: center;
+}
+
+.hero-unit .btn, .pagination-centered .btn {
+  float: none;
+  font-weight: normal;
+}
+
+.splash-box {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.splash-image {
+  display: block;
+  margin: 20px auto;
+  width: 800px;
+}
+
+.source-link {
+  position: absolute;
+  bottom: -6px;
+  left: 14px;
+  font-size: 10px;
+  color: #aaa;
+  text-align: left;
+}
+
+.social-buttons-placeholder {
+  height: 30px;
+  position: relative;
+}
+
+.bs-docs-social-buttons {
+  position: absolute;
+  top: 0px;
+  left: 90px;
+  list-style: none;
+}
+
+.bs-docs-social-buttons li {
+  display: inline-block;
+  padding: 5px 8px;
+  line-height: 1;
+}
+
+.discussion {
+  margin-top: 100px;
+}
+
+.author-message {
+  float: left;
+  margin-top: 50px;
+  text-align: left;
+  font-size: 14px;
+  line-height: 18px;
+  width: 600px;
+}
+
+.author-message .avatar {
+  padding-right: 6px;
+  padding-bottom: 10px;
+  width: 20px;
+}
+
+.author-message ul li {
+  line-height: 16px;
+}
+
+.author-bio {
+  float: left;
+  margin-top: 90px;
+  text-align: left;
+  font-size: 10px;
+  padding-left: 10px;
+  line-height: 14px;
+  width: 190px;
+}
+
+.author-bio .avatar {
+  float: left;
+  width: 34px;
+  padding-right: 10px;
+}
+
+.side-products {
+  margin-top: 20px;
+  clear: both;
+}
+
+.side-product {
+  margin-top: 16px;
+  clear: both;
+  display: block;
+}
+
+.side-product img {
+  float: left;
+  width: 36px;
+  padding-right: 8px;
+}
+
+.side-product span {
+  display: block;
+}
+
+.side-product .title {
+  padding-top: 4px;
+  font-size: 14px;
+  text-decoration: none !important;
+}
+
+.author-note {
+  color: #aaa;
+  border-bottom: 1px solid #eee;
+  font-size: 10px;
+  margin-bottom: 20px;
+}

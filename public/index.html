@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Comix I/O</title>
+    <link rel="canonical" href="http://cmx.io"/>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <meta name="google-site-verification" content="BWZpwTk4naqZVbtvWan26-7kE1FP6lj_DxwnNP2Prhs" />
+
+    <meta property="fb:admins" content="antonin.hildebrand"/>
+    <meta property="og:description" content="Create your own XKCD-style comics using HTML markup. A browser-based visual editor included!"/>
+    <meta property="og:site_name" content="CMX.IO"/>
+    <meta property="og:type" content="product"/>
+    <meta property="og:title" content="Comix I/O"/>
+    <meta property="og:url" content="http://cmx.io"/>
+    <meta property="og:image" content="http://cmx.io/img/cmx-teaser.png"/>
+
+    <!-- build:css styles/site.css -->
+    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link rel="stylesheet" href="styles/site.css">
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+        <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div id="homepage" style="display:none">
+      <header class="hero-unit">
+        <div class="container">
+          <h1>Comix I/O</h1>
+          <p>Create your own <a href="http://xkcd.com">xkcd-style</a> comics using HTML markup.</p>
+          <div class="social-buttons-placeholder">
+            <ul class="bs-docs-social-buttons" style="display:none">
+              <li>
+                <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fcmx.io&amp;send=false&amp;layout=button_count&amp;width=100&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=21&amp;appId=332451499524" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
+              </li>
+              <li>
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://cmx.io" data-text="Comix I/O: Create your own XKCD-style comics using HTML markup. A visual editor included!" data-hashtags="cmx.io">Tweet</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>              </li>
+              <li>
+                <div class="g-plusone" data-size="medium"></div>
+                <script type="text/javascript">
+                  (function() {
+                    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                  })();
+                </script>
+              </li>
+              <li>
+                <iframe src="http://ghbtns.com/github-btn.html?user=darwin&repo=cmx.js&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="110" height="20"></iframe>
+              </li>
+              <li>
+                <iframe src="http://ghbtns.com/github-btn.html?user=darwin&repo=cmx.js&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="95" height="20"></iframe>
+              </li>
+            </ul>
+          </div>
+          <div class="splash-box">
+            <a href="/edit"><img class="splash-image" title="Open this strip in the editor" src="img/cmx-preview.png"/></a>
+            <div class="source-link">Note: The source file for this comix strip is located at <a href="http://cmx.io/edit/sample.html">http://cmx.io/edit/sample.html</a>.</div>
+          </div>
+          <p class="btn-group">
+            <a class="btn btn-large btn-primary" href="/edit"><i class="icon-white icon-move"></i> Launch Editor</a>
+            <a class="btn btn-large" href="https://github.com/darwin/cmx.js/wiki"><i class="icon-github"></i> Read Docs</a>
+          </p>
+          <div class="author-message">
+            <div class="author-note">
+              a note from the developer
+            </div>
+            <p>
+              <a href="http://about.me/darwin"><img class="avatar" src="https://secure.gravatar.com/avatar/79322c2ed80c2d722de8c9d0475198a0?s=20"></a>
+              Hello! This is just a proof-of-concept work.<br>To make it really usable for non-developers I would need to put much more time into it.
+            </p>
+            Some future improvements on my TODO list:
+            <ul>
+              <li>a library of reusable items</li>
+              <li>a system for changing heads</li>
+              <li>a library of standard poses</li>
+              <li>Firefox is painfully slow in rendering the TTF font via SVG (investigate)</li>
+              <li>extensibility (including/embedding standard pieces from other documents)</li>
+            </ul>
+            <p>
+              Feel free to share your ideas in the comments below.<br>
+              <br>
+              Want to learn more about this project? <a href="http://www.wired.com/wiredenterprise/2013/02/xkcd-style-comic-generator">Check out the article at Wired.com</a>
+            </p>
+          </div>
+
+          <div class="author-bio">
+            <a href="http://about.me/darwin"><img class="avatar" src="https://secure.gravatar.com/avatar/79322c2ed80c2d722de8c9d0475198a0?s=34"></a>
+            I'm also a Mac developer.<br>I work on other cool stuff too. <br><br>Check out my software at <a href="http://binaryage.com">binaryage.com</a>.
+
+            <div class="side-products">
+              <div class="side-product">
+                <a href="http://totalfinder.binaryage.com">
+                  <img src="http://static.binaryage.com/57f6fb3b_shared_img_icons_totalfinder-64.png" width="38" height="38">
+                  <span class="title">TotalFinder</span>
+                  <span class="info">Adds tabs to your Finder.app!</span>
+                </a>
+              </div>
+              <div class="side-product">
+                <a href="http://totalspaces.binaryage.com">
+                  <img src="http://static.binaryage.com/52792a5d_shared_img_icons_totalspaces-64.png" width="38" height="38">
+                  <span class="title">TotalSpaces</span>
+                  <span class="info">The ultimate desktop manager</span>
+                </a>
+              </div>
+              <div class="side-product">
+                <a href="http://totalterminal.binaryage.com">
+                  <img src="http://static.binaryage.com/af5e5355_shared_img_icons_totalterminal-64.png" width="38" height="38">
+                  <span class="title">TotalTerminal</span>
+                  <span class="info">A Quake-style Terminal window</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="chrome-experiment-badge"><a href="http://www.chromeexperiments.com/detail/comix-io/"><img src="img/ce-badge.png" alt="See Comix I/O Experiment on ChromeExperiments.com" /></a></div>
+      <div class="container discussion">
+        <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+    <div id="comix-spinner" style="display:none">
+    </div>
+    <div id="comix" style="display:none">
+      <div id="comix-placeholder">
+        <div id="comix-banner">
+          <span class="comix-title"></span><span class="comix-author"></span><span class="comix-date"></span>
+        </div>
+      </div>
+    </div>
+    <div id="error" style="display:none">
+      <h2>Unable to read gist <span id="error-gist-number"></span></h2>
+      <pre id="error-response"></pre>
+      <p>Please make sure that</p>
+      <ul>
+        <li>the gist <a id="error-gist-link" href=""></a> really exists</li>
+        <li>the gist contains <a id="error-gist-index-link">index.html</a> file with comix source code</li>
+        <li>your browser is not over <a href="http://developer.github.com/v3/#rate-limiting">GitHub API limit quota</a></li>
+      </ul>
+      <p>Here is an example of a working gist <a href="http://cmx.io/#4770953">http://cmx.io/#4770953</a> which reads <a href="https://gist.github.com/4770953">https://gist.github.com/4770953</a>.</p>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.js"><\/script>')</script>
+
+    <!-- build:js scripts/site.js -->
+    <script src="scripts/vendor/modernizr.js"></script>
+    <script src="scripts/vendor/jquery.hashchange.js"></script>
+    <script src="scripts/vendor/spin.js"></script>
+    <script src="scripts/vendor/date.js"></script>
+    <script src="scripts/social-fadein.js" type="text/javascript" charset="utf-8"></script>
+    <script src="scripts/boot.js" type="text/javascript" charset="utf-8"></script>
+    <!-- endbuild -->
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-38409764-1']);
+      // we will tracke pageview later in our boot code, depending on gist situation
+      // _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
